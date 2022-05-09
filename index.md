@@ -1,11 +1,8 @@
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title> A new journey is about to begin. </title>
 </head>
   
   
-<body>
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
@@ -17,7 +14,7 @@
   
 <td id="layout-content">
 <div id="toptitle">
-<h1> Jiahui Fan's Personal Page </h1>
+<h1> Jiahui Fan </h1>
 </div>
   
   
@@ -58,6 +55,3 @@ E-mail: <a href="mailto:fjh@njust.edu.cn">fjh@njust.edu.cn</a></p>
   [<a href="https://ieeexplore.ieee.org/document/9689957">URL</a>]</p>
 </li>
 
-  
-</body>
-</html>
