@@ -1,7 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-  
 <head>
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -30,7 +26,7 @@
   
 <table class="imgtable"><tr><td>
 <a href="https://sssssy.github.io/"><img src="photos/test.jpg" width="131px" height="160px" /></a>&nbsp;</td>
-<td align="left"><p>Ph.D candidate,<br />
+<td align="left"><p> Ph.D candidate <br /><br/>
 PCA Lab, Key Lab of Intelligent Perception and Systems <br/>
   for High-Dimensional Information of Ministry of Education, <br/>
 School of Computer Science and Engineering,<br />
@@ -58,9 +54,12 @@ E-mail: <a href="mailto:fjh@njust.edu.cn">fjh@njust.edu.cn</a></p>
   
 <h2> Publications </h2>
 <ol>
-<li><p>M. Chen, T. Ma, and <b>X. Zhou</b>*, "CoCNN: Co-occurrence CNN for Recommendation", <i>Expert Systems with Applications</i>, Jun. 2022, 195, pp. 116595. (IF = 6.954) [<a href="pub/CoCNN.pdf">pdf</a>][<a href="https://github.com/XiuzeZhou/cocnn">code</a>]</p>
-</li>
 <p><b>Note</b>: * indicates the corresponding author.</p>
+  
+<li><p> J. Fan; B. Wang*; W. Wu; M. Hasan; J Yang*; L-Q. Yan, <br/> 
+  "Efficient Specular Glints Rendering with Differentiable Regularization", <i> IEEE Transactions on Visualization and Computer Graphics </i>, DOI: 10.1109/tvcg.2022.3144479. <br/>
+  [<a href="https://ieeexplore.ieee.org/document/9689957">URL</a>]</p>
+</li>
 
   
 </body>
