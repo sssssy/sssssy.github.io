@@ -1,9 +1,6 @@
 <head>
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="bookmark" href="favicon.ico" type="image/x-icon"　/>
 <title> A new journey is about to begin. </title>
 </head>
   
