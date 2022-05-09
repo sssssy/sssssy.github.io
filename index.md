@@ -14,7 +14,7 @@
 <td id="layout-menu">
 <div class="menu-category">Menu</div>
 <div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="https://orcid.org/0000-0003-0871-7615">Orcid Profile</a></div>
+<div class="menu-item"><a href="https://orcid.org/0000-0003-0871-7615">Orcid</a></div>
 <div class="menu-item"><a href="https://github.com/sssssy">GitHub</a></div>
 </td>
   
