@@ -1,0 +1,33 @@
+body 
+{
+    margin-left: 10%; margin-right: 10%;
+    margin-top: 40px;
+}
+
+#td-top-intro
+{
+    padding: 15px;
+}
+
+#td-sec-title
+{
+    vertical-align:top;
+}
+
+#td-pubs-fig
+{
+    padding-right: 30px;
+}
+
+#td-pubs-text
+{ 
+    padding-left: 15px;
+}
+
+#div-note
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 15px;
+    background-color: rgb(215, 215, 215);
+}
