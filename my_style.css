@@ -2,6 +2,7 @@ body
 {
     margin-left: 10%; margin-right: 10%;
     margin-top: 40px;
+    margin-bottom: 150px;
 }
 
 #td-top-intro
@@ -16,12 +17,18 @@ body
 
 #td-pubs-fig
 {
+    vertical-align:top;
+    padding-top: 15px;
+    padding-bottom: 25px;
     padding-right: 30px;
 }
 
 #td-pubs-text
 { 
-    padding-left: 15px;
+    vertical-align:top;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
 }
 
 #div-note
