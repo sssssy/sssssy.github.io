@@ -9,42 +9,46 @@
     <link rel="stylesheet" type="text/css" href="my_style.css">
     <link rel="shortcut icon" href="common_resources/monkey.png">
     <script type="text/javascript" src="playsound.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="lang_text.js"></script>
+    <script type="text/javascript" src="language.js"></script>
     <audio id='hellothere' src='common_resources/obi-wan-hello-there.mp3'></audio>
 </head>
 
-<body> 
 
+<button class="translate" id="en" 
+    style="position: absolute; right: 100px; top: 10px; width: 70px; height: 25px;">
+    English
+</button>
+<button class="translate" id="zh" 
+    style="position: absolute; right: 20px;  top: 10px; width: 70px; height: 25px;">
+    中文
+</button>
+
+<body> 
 <div>
-    <h1> Jiahui Fan </h1>
+    <h1 class='lang' key='name'></h1>
 </div>
 <hr />
-    
+
 <table>
     <tr>
         <td id="td-top-intro">
             <img src="common_resources/me.jpg" width="120px" height="160px" alt="Jiahui Fan">
         </td>
-        <td  id="td-top-intro" align="left" >
-            Ph.D. candidate <br /><br />
-            
-            PCA Lab, Key Lab of Intelligent Perception and Systems
-            for High-Dimensional Information of Ministry of Education, <br />
-            School of Computer Science and Engineering,<br />
-            Nanjing University of Science and Technology, <br />
-            Nanjing, China <br /> 
-        </td>
+        <td class='lang' key='top-intro' id="td-top-intro"></td>
     </tr>
 </table>
 
 <div>
 
-    Also find me at: 
+    <nobr class="lang" key="Also find me at:"></nobr>
     <a href="https://orcid.org/0000-0003-0871-7615">ORCID</a>, 
     <a href="https://github.com/sssssy">GitHub</a>.
-    E-mail: <a href="mailto:fjh@njust.edu.cn">fjh@njust.edu.cn</a></p>
-    
+    E-mail: <a href="mailto:fjh@njust.edu.cn">fjh@njust.edu.cn</a>
 </div>
 
+<br/>
 <br/>
 <br/>
 <table>
@@ -56,45 +60,35 @@
                 width="75px" height="35px" />
         </td>
         <td id="td-sec-title">
-            <h2> < Hello, there! </h2>
+            <h2 class="lang" key="hello, there"></h2>
         </td>
     </tr>
 
 </table>
 
 
-
-I am Jiahui Fan, a Ph.D. candidate in PCA Lab of NJUST. I am supervised by Prof. Beibei Wang and Prof. Jian Yang. As a young Padawan in Graphics, I started my journey in Graphics since my first year of Ph.D. in 2020, while my former major was in the field of Computer Vision. I've always been interested in understanding and utilizing the principle how everything works in both the real world and the virtual ones. It will be my greatest honor (and also a desire) to communicate with you - who share the same interest and passion with me. Please feel free to contact me on any thoughts, questions, or comments.
-  
-  
+<div class="lang" key="intro"></div>
+    
+    
 <br/>
 <br/>
 <br/>
+<h2 class="lang" key="What am I doing?"></h2>
 
-<h2> What am I doing? </h2>
-
-My research interests mainly lies in Graphics and Computer Vision. Specifically: 
+<div class="lang" key="my research"></div>
 
 <ul>
-    <li><p>
-        Neural-based Appearance Modeling.
-    </p></li>
-
-    <li><p>
-        Micro-facet Model.
-    </p></li>
-    
-    <li><p>
-        Depth Completion.
-    </p></li>
+    <li><p class="lang" key="Neural-based Appearance Modeling."></p></li>
+    <li><p class="lang" key="Micro-facet Model."></p></li>
+    <li><p class="lang" key="Sparse Depth Completion."></p></li>
 </ul>
 
   
 <br/>
-<h2> Featured Publications </h2>
+<h2 class="lang" key="Featured Publications"></h2>
 
 <p>
-    <i> *: corresponding author(s). </i> 
+    <i class="lang" key="*: corresponding author(s)."></i> 
 </p>
 
 <table class="imgtable">
@@ -107,9 +101,9 @@ My research interests mainly lies in Graphics and Computer Vision. Specifically:
             <h4>Neural Layered BRDFs</h4>
             <b>Jiahui Fan</b>, Beibei Wang*, Milos Hasan, Jian Yang*, Ling-Qi Yan <br/>
             <i>Proceedings of SIGGRAPH 2022</i> <br/>
-            [<a href="pubs/NLB/main_final.pdf">paper</a>] 
-            [<a href="pubs/NLB/supplementary_final.pdf">supplementary</a>] 
-            [<a href="pubs/NLB/video_NeuralLayeredBRDFs_author_affiliation.mp4">video</a>]
+            [<a href="pubs/NLB/main_final.pdf" class="lang" key="paper"></a>] 
+            [<a href="pubs/NLB/supplementary_final.pdf" class="lang" key="supplementary"></a>] 
+            [<a href="pubs/NLB/video_NeuralLayeredBRDFs_author_affiliation.mp4" class="lang" key="video"></a>]
         </td>
     </tr>
     
@@ -121,8 +115,8 @@ My research interests mainly lies in Graphics and Computer Vision. Specifically:
             <h4>Position-free Multiple-bounce Computations for Smith Microfacet BSDFs</h4>
             Beibei Wang, Wenhua Jin, <b>Jiahui Fan</b>, Jian Yang, Nicolas Holzschuch, Ling-Qi Yan <br/>
             <i>ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)</i> <br/>
-            [<a href="pubs/MBBRDF/paper_MBBRDF_final.pdf">paper</a>] 
-            [<a href="pubs/MBBRDF/paper_supplemental.pdf">supplementary</a>] 
+            [<a href="pubs/MBBRDF/paper_MBBRDF_final.pdf" class="lang" key="paper"></a>] 
+            [<a href="pubs/MBBRDF/paper_supplemental.pdf" class="lang" key="supplementary"></a>] 
         </td>
     </tr>
 
@@ -134,12 +128,12 @@ My research interests mainly lies in Graphics and Computer Vision. Specifically:
             <h4>Efficient Specular Glints Rendering with Differentiable Regularization</h4>
             <b>Jiahui Fan</b>, Beibei Wang*, Wenshi Wu, Miloš Hašan, Jian Yang* and Ling-Qi Yan <br /> 
             <i>IEEE Transactions on Visualization and Computer Graphics</i>, DOI: 10.1109/tvcg.2022.3144479. <br />
-            [<a href="pubs/diffGlints/paper_TVCG.pdf">paper</a>]
-            [<a href="https://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharinghttps://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharing">video</a>]
-            [<a href="https://ieeexplore.ieee.org/document/9689957">URL</a>]
+            [<a href="pubs/diffGlints/paper_TVCG.pdf" class="lang" key="paper"></a>]
+            [<a href="https://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharinghttps://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharing" class="lang" key="video"></a>]
+            [<a href="https://ieeexplore.ieee.org/document/9689957" class="lang" key="URL"></a>]
         </td>
     </tr>
 
 </table>
 
-</body>
+</body> 
