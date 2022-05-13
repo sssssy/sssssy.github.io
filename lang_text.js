@@ -13,7 +13,7 @@ var arrLang = {
         "E-mail:": "E-mail:",
         "hello, there": "< Hello, there!",
         "intro": "\
-            I am Jiahui Fan, a Ph.D. candidate in PCA Lab of NJUST. I am supervised by Prof. Beibei Wang and Prof. Jian Yang. As a young Padawan in Graphics, I started my journey in Graphics since my first year of Ph.D. in 2020, while my former major was in the field of Computer Vision. I've always been interested in understanding and utilizing the principle how everything works in both the real world and the virtual ones. It will be my greatest honor (and also a desire) to communicate with you - who share the same interest and passion with me. Please feel free to contact me on any thoughts, questions, or comments. \
+            I am Jiahui Fan, a Ph.D. candidate in PCA Lab of NJUST. I am supervised by Prof. Jian Yang and Prof. Beibei Wang. As a young Padawan in Graphics, I started my journey in Graphics since my first year of Ph.D. in 2020, while my former major was in the field of Computer Vision. I've always been interested in understanding and utilizing the principle how everything works in both the real world and the virtual ones. It will be my greatest honor (and also a desire) to communicate with you - who share the same interest and passion with me. Please feel free to contact me on any thoughts, questions, or comments. \
         ",
         "What am I doing?": "What am I doing?",
         "my research": "My research interests mainly lies in Graphics and Computer Vision. Specifically: ",
