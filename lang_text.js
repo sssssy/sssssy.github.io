@@ -28,6 +28,7 @@ var arrLang = {
         "supplementary": "supplementary",
         "video": "video",
         "URL": "URL",
+        "code": "code",
     },
     "zh": {
         "name": "Jiahui Fan (樊家辉)",
@@ -56,6 +57,7 @@ var arrLang = {
         "supplementary": "补充材料",
         "video": "视频",
         "URL": "链接",
+        "code": "代码",
     },
     "jp": {
         "name": "Jiahui Fan (樊　家輝)",
@@ -79,10 +81,11 @@ var arrLang = {
         "Microfacet Model.": "マイクロファセットモデル",
         "Sparse Depth Completion.": "スパースデプスコンプリーション（２０２０年以前）",
         "Featured Publications": "発表文献",
-        "*: corresponding author(s).": "（*: 責任著者)",
+        "*: corresponding author(s).": "（*: 責任著者）",
         "paper": "論文",
         "supplementary": "サプリメンタル",
         "video": "ビデオ",
         "URL": "リンク",
+        "code": "コード",
     }
 };
