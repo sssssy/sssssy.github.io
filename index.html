@@ -1,4 +1,8 @@
 
+<!-- ============================ -->
+<!--           HEAD               -->
+<!-- ============================ -->
+
 <head>
     <title> 
         A New Journey Is About To Begin. 
@@ -15,35 +19,45 @@
     <audio id='hellothere' src='common_resources/obi-wan-hello-there.mp3'></audio>
 </head>
 
-
-<button class="translate" id="en" 
-    style="position: absolute; right: 180px; top: 10px; width: 70px; height: 25px;">
-    English
-</button>
-<button class="translate" id="jp" 
-    style="position: absolute; right: 100px;  top: 10px; width: 70px; height: 25px;">
-    日本語
-</button>
-<button class="translate" id="zh" 
-    style="position: absolute; right: 20px;  top: 10px; width: 70px; height: 25px;">
-    中文
-</button>
-
 <body> 
-<div>
-    <h1 class='lang' key='name'></h1>
-</div>
-<hr />
+    
+    <div>
+        <h1 class='lang' key='name'></h1>
+    </div>
+    
+    <hr />
+    
+    <!-- ============================ -->
+    <!--         LANG BUTTON          -->
+    <!-- ============================ -->
+    
+    <button class="translate" id="en" 
+        style="position: absolute; right: 280px; top: 120px; width: 70px; height: 25px;">
+        English
+    </button>
+    <button class="translate" id="jp" 
+        style="position: absolute; right: 200px; top: 120px; width: 70px; height: 25px;">
+        日本語
+    </button>
+    <button class="translate" id="zh" 
+        style="position: absolute; right: 120px;  top: 120px; width: 70px; height: 25px;">
+        中文
+    </button>
+    
 
-<table>
-    <tr>
-        <td id="td-top-intro">
-            <img src="common_resources/me.jpg" width="120px" height="160px" alt="Jiahui Fan">
-        </td>
-        <td class='lang' key='top-intro' id="td-top-intro"></td>
-    </tr>
-</table>
+    <!-- ============================ -->
+    <!--          TOP INTRO           -->
+    <!-- ============================ -->
 
+    <table>
+        <tr>
+            <td id="td-top-intro">
+                <img src="common_resources/me.jpg" width="120px" height="160px" alt="Jiahui Fan">
+            </td>
+            <td class='lang' key='top-intro' id="td-top-intro"></td>
+        </tr>
+    </table>
+    
 <div>
     <nobr class="lang" key="Also find me at:"></nobr>
     <a href="https://orcid.org/0000-0003-0871-7615" target="_blank">ORCID</a>, 
@@ -51,8 +65,15 @@
     <nobr class="lang" key="E-mail:"></nobr> <a href="mailto:fjh@njust.edu.cn" target="_blank">fjh@njust.edu.cn</a>.
     <br/>
     <nobr class="lang" key="My Curriculum Vitae:"></nobr> 
-    <a href="common_resources/CV.pdf" target="_blank">CV.pdf (English)</a>.
+    <a href="common_resources/CV_2022.pdf" target="_blank">CV@2022.pdf (English)</a>.
 </div>
+
+
+
+<!-- ============================ -->
+<!--         HELLO THERE          -->
+<!-- ============================ -->
+
 
 <br/>
 <br/>
@@ -66,36 +87,63 @@
                 width="75px" height="35px" class="zoom"/>
         </td>
         <td id="td-sec-title" style="padding-left: 5px;">
-            <h2 class="lang" key="hello, there"></h2>
+            <h2> < Hello, there! </h2>
         </td>
     </tr>
 
 </table>
 
 
-<div class="lang" key="intro"></div>
+<div>
+    I am Jiahui Fan, a Ph.D. student in PCA Lab of NJUST. I am supervised by Prof. Jian Yang and Prof. Beibei Wang. As a young Padawan in Graphics, I started my journey in realistic rendering since my first year of Ph.D. in 2020, while my former major was in the field of computer vision. I've always been interested in understanding and utilizing the principle how everything works in both the real world and the virtual ones. It will be my greatest honor (and also a desire) to communicate with people who share the same interest and passion. 
+    <br/>
+    <i>/* Please feel free to contact me on any thoughts, questions, or comments. */</i>  
+</div>
+
+
+
+<!-- ============================ -->
+<!--       WHAT AM I DOING        -->
+<!-- ============================ -->
+
+
     
-    
 <br/>
 <br/>
-<h2 class="lang" key="What am I doing?"></h2>
+<h2> What am I doing? </h2>
 
-<div class="lang" key="my research"></div>
+<div>
+    My research interests mainly lie in realistic rendering and deep learning, specifically:
 
-<ul>
-    <li><p class="lang" key="Neural-based Appearance Modeling."></p></li>
-    <li><p class="lang" key="Efficient Rendering of Microstructure Model."></p></li>
-    <li><p class="lang" key="Microfacet Model."></p></li>
-    <!-- <li><p class="lang" key="Sparse Depth Completion."></p></li> -->
-</ul>
+    <ul>
+        <li>
+            Neural-based appearance modeling. </p>
+        </li>
+        
+        <li>
+            Efficient rendering of microstructure model.</p>
+        </li>
+        
+        <li>
+            Microfacet model.</p>
+        </li>
+    </ul>
+</div> 
+
+
+
+<!-- ============================ -->
+<!--             PUBS             -->
+<!-- ============================ -->
+
 
 
 <br/>
 <br/>
-<h2 class="lang" key="Featured Publications"></h2>
+<h2> Featured Publications </h2>
 
 <p>
-    <i class="lang" key="*: corresponding author(s)."></i> 
+    <i>*: corresponding author(s).</i>
 </p>
 
 <table class="imgtable">
@@ -108,11 +156,11 @@
             <h4>Neural Layered BRDFs</h4>
             <b>Jiahui Fan</b>, Beibei Wang*, Miloš Hašan, Jian Yang* and Ling-Qi Yan <br/>
             <i>Proceedings of SIGGRAPH 2022</i> <br/>
-            [<a href="pubs/NLB/main_final.pdf" class="lang" key="paper" target="_blank"></a>] 
-            [<a href="pubs/NLB/supplementary_final.pdf" class="lang" key="supplementary" target="_blank"></a>] 
-            [<a href="pubs/NLB/video_NeuralLayeredBRDFs_author_affiliation.mp4" class="lang" key="video" target="_blank"></a>]
-            [<a href="https://wangningbei.github.io/2022/NLBRDF.html" class="lang" key="URL" target="_blank"></a>]
-            [<a href="pubs/NLB/NeuralLayeredBRDFs_Release.zip" class="lang" key="code" target="_blank"></a>]
+            [<a href="pubs/NLB/main_final.pdf" target="_blank">paper</a>] 
+            [<a href="pubs/NLB/supplementary_final.pdf" target="_blank">supplementary</a>] 
+            [<a href="pubs/NLB/video_NeuralLayeredBRDFs_author_affiliation.mp4" target="_blank">video</a>]
+            [<a href="https://wangningbei.github.io/2022/NLBRDF.html" target="_blank">URL</a>]
+            [<a href="pubs/NLB/NeuralLayeredBRDFs_Release.zip" target="_blank">code</a>]
         </td>
     </tr>
     
@@ -124,8 +172,8 @@
             <h4>Position-free Multiple-bounce Computations for Smith Microfacet BSDFs</h4>
             Beibei Wang, Wenhua Jin, <b>Jiahui Fan</b>, Jian Yang, Nicolas Holzschuch and Ling-Qi Yan <br/>
             <i>ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)</i> <br/>
-            [<a href="pubs/MBBRDF/paper_MBBRDF_final.pdf" class="lang" key="paper" target="_blank"></a>] 
-            [<a href="pubs/MBBRDF/paper_supplemental.pdf" class="lang" key="supplementary" target="_blank"></a>] 
+            [<a href="pubs/MBBRDF/paper_MBBRDF_final.pdf" target="_blank">paper</a>] 
+            [<a href="pubs/MBBRDF/paper_supplemental.pdf" target="_blank">supplementary</a>] 
         </td>
     </tr>
 
@@ -137,12 +185,36 @@
             <h4>Efficient Specular Glints Rendering with Differentiable Regularization</h4>
             <b>Jiahui Fan</b>, Beibei Wang*, Wenshi Wu, Miloš Hašan, Jian Yang* and Ling-Qi Yan <br /> 
             <i>IEEE Transactions on Visualization and Computer Graphics</i> <br />
-            [<a href="pubs/diffGlints/paper_TVCG.pdf" class="lang" key="paper" target="_blank"></a>]
-            [<a href="https://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharinghttps://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharing" class="lang" key="video" target="_blank"></a>]
-            <!-- [<a href="https://ieeexplore.ieee.org/document/9689957" class="lang" key="URL" target="_blank"></a>] -->
+            [<a href="pubs/diffGlints/paper_TVCG.pdf" target="_blank">paper</a>] 
+            [<a href="https://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharinghttps://drive.google.com/file/d/14ng32sJx9Nm0UtMM-ZuzzC2Dc6sa0SZE/view?usp=sharing" target="_blank">video</a>]
         </td>
     </tr>
 
 </table>
 
+
+<!-- ============================ -->
+<!--            HONORS            -->
+<!-- ============================ -->
+
+
+<!-- <br/>
+<br/>
+<h2> Honors and Rewards </h2>
+
+<div>
+    <ul>
+        <li>
+            2022 Style3D Graphics Scholarship </p>
+        </li>
+        
+        <li>
+            GAMES 2022 Best Poster </p>
+        </li>
+        
+    </ul>
+</div> -->
+
+<br/>
+<br/>
 </body> 
