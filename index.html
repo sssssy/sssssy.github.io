@@ -11,19 +11,19 @@
     <meta name="Keywords" content="Jiahui Fan, 樊家辉, rendering, graphics, NJUST, PCALab">
     <meta name="Description" content="">
     <link rel="stylesheet" type="text/css" href="my_style.css">
-    <link rel="shortcut icon" href="common_resources/monkey.png">
+    <link rel="shortcut icon" href="common_resources/invoker.png">
     <script type="text/javascript" src="playsound.js"></script>
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="lang_text.js"></script>
     <script type="text/javascript" src="language.js"></script>
-    <audio id='hellothere' src='common_resources/obi-wan-hello-there.mp3'></audio>
+    <audio id='hellothere' src='common_resources/hellothere.mp3'></audio>
 </head>
 
 <body> 
     
     <div>
         <!-- <h1 class='lang' key='name'></h1> -->
-        <h1> Jiahui Fan </h1>
+        <h1> Jiahui Fan (樊 家辉) </h1>
     </div>
     
     <hr />
@@ -53,12 +53,11 @@
     <table>
         <tr>
             <td id="td-top-intro">
-                <img src="common_resources/me.jpg" width="120px" height="160px" alt="Jiahui Fan">
+                <img src="common_resources/me2024.png" width="200px" height="200px" alt="Jiahui Fan">
             </td>
             <td> 
-                Ph.D. student <br><br>
-                PCA Lab, Key Lab of Intelligent Perception and Systems for High-Dimensional Information, Ministry of Education <br>
-                School of Computer Science and Engineering <br>
+                Ph.D student <br><br>
+                PCA Lab, School of Computer Science and Engineering <br>
                 Nanjing University of Science and Technology (NJUST) <br>
                 Nanjing, China</td>
         </tr>
@@ -75,7 +74,7 @@
     <br/>
     <!-- <nobr class="lang" key="My Curriculum Vitae:"></nobr>  -->
     My curriculum vitae:
-    <a href="common_resources/CV_2023.pdf" target="_blank">CV@2023.pdf (English)</a>.
+    <a href="common_resources/CV_2023.pdf" target="_blank">CV@2023.pdf</a>.
 </div>
 
 
@@ -88,28 +87,43 @@
 <br/>
 <br/>
 <br/>
-<table>
-
-    <tr>
-        <td id="td-sec-title">
-            <a href="javascript:void()">
-                <img onclick="PlaySound('hellothere')" 
-                src="common_resources/star-wars-obi-wan-kenobi.gif" 
-                width="75px" height="35px" class="zoom"/>
-            </a>
-        </td>
-        <td id="td-sec-title" style="padding-left: 5px;">
-            <h2> < Hello, there! </h2>
-        </td>
-    </tr>
-
-</table>
+<div>
+    <table>
+        
+        <tr>
+            <td id="td-sec-title">
+                <a href="javascript:void()">
+                    <img onclick="PlaySound('hellothere')"
+                    src="common_resources/star-wars-obi-wan-kenobi.gif" 
+                    width="150px" height="70px" class="zoom" id="obi-wan"/>
+                    <!-- <img onmouseover="PlaySound('hellothere')"
+                    src="common_resources/star-wars-obi-wan-kenobi.gif" 
+                    width="150px" height="70px" class="zoom" id="obi-wan"/> -->
+                </a>
+            </td>
+            <td id="td-sec-title" style="padding-left: 5px;">
+                <h2> Hello, there! </h2>
+                <i><small>click Obi-wan and say hi~</small></i>
+            </td>
+        </tr>
+        
+    </table>
+</div>
 
 
 <div>
-    I am Jiahui Fan, a Ph.D. student in PCA Lab of NJUST. I am supervised by Prof. Jian Yang and Prof. Beibei Wang. As a young Padawan in Graphics, I started my journey in realistic rendering since my first year of Ph.D. in 2020, while my former major was in the field of computer vision. I've always been interested in understanding and utilizing the principle how everything works in both the real world and the virtual ones. It will be my greatest honor (and also a desire) to communicate with people who share the same interest and passion. 
     <br/>
-    <i>/* Please feel free to contact me on any thoughts, questions, or comments. */</i>  
+    Hi! I'm Jiahui, a Ph.D student from PCALab, NJUST. I'm advised by Prof. <a href="https://scholar.google.com.hk/citations?user=6CIDtZQAAAAJ" target="_blank">Jian Yang</a> and Prof. <a href="https://wangningbei.github.io/" target="_blank">Beibei Wang</a>. As a young <i>Padawan</i> in Graphics, I started my journey in realistic rendering since my first year of Ph.D in 2020.
+    <!-- <br/> -->
+    My main research interests are in the field of rendering, including neural appearance modeling and inverse rendering. 
+    <!-- <br/> -->
+    I'm always open to greetings and conversations, as well as some potential <b>post-doc</b> opportunities (2025 Fall).
+    <br/>
+    <br/>
+    Apart from my research, I'm also deeply interested in modern dramas (watching and performing), music (1970s prog rocks), Formula 1 races (Forza Ferrari!!), D&D (a part-time DM), video games (DOTA2) and foreign languages (I'm learning Japanese, Russian, Italian and more in the future!).
+    <br/>
+    <br/>
+    <i> FEEL FREE TO GET IN TOUCH WITH ME! </i>
 </div>
 
 
@@ -125,22 +139,54 @@
 <h2> What am I doing? </h2>
 
 <div>
-    My research interests mainly lie in realistic rendering and deep learning, specifically:
+    My research interests mainly lie in realistic rendering and (plus) deep learning, specifically:
 
     <ul>
         <li>
             Neural-based appearance modeling. </p>
         </li>
-        
+
         <li>
-            Efficient rendering of complex appearances.</p>
+            Lightweight BTF/SVBRDF acquisition. </p>
         </li>
         
         <li>
-            Inverse rendering.</p>
+            Efficient rendering of complex appearances (glints and layered materials).</p>
+        </li>
+        
+        <li>
+            Inverse rendering for materials and relighting.</p>
         </li>
     </ul>
 </div> 
+
+
+
+<!-- ============================ -->
+<!--   Educations and experiences -->
+<!-- ============================ -->
+
+
+<br/>
+<br/>
+<h2> Where have I been? </h2>
+
+<div>
+    <ul>
+        <li>
+            Ph.D, NJUST (2020 - Now) </p>
+        </li>
+
+        <li>
+            Internship at Disney Research | Studio, Zurich (2023 Summer) </p>
+        </li>
+        
+        <li>
+            Bachelor, NJUST (2016 - 2020)</p>
+        </li>
+        
+    </ul>
+</div>
 
 
 
@@ -183,17 +229,18 @@
 
 <table class="imgtable">
     
-    <!-- <tr>
+    <tr>
         <td id='td-pubs-fig'>
             <img src="pubs/RNG/teaser.png" width="200px" height="70px" alt="RNG: Relightable Neural Gaussians" border="2"/>
         </td>
         <td id='td-pubs-text'>
             <h4>RNG: Relightable Neural Gaussians</h4>
             <b>Jiahui Fan</b>, Fujun Luan, Jian Yang*, Miloš Hašan, Beibei Wang* <br/>
-            [<a href="pubs/RNG/paper.pdf" target="_blank">paper</a>] 
-            [<a href="https://arxiv.org/abs/2409.19702" target="_blank">URL(ArXiv)</a>]
+            <i>arXiv</i> <br/>
+            [<a href="pubs/RNG/RNG.pdf" target="_blank">paper (+supplementary)</a>] 
+            [<a href="https://arxiv.org/abs/2409.19702v4" target="_blank">URL</a>]
         </td>
-    </tr> -->
+    </tr>
     
     <tr>
         <td id='td-pubs-fig'>
